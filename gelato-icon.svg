@@ -1,19 +1,33 @@
 <svg width="60" height="80" viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Ice cream scoops -->
-    <circle cx="30" cy="25" r="20" fill="#FFB3D1"/>
-    <circle cx="30" cy="35" r="18" fill="#87CEEB"/>
-    <circle cx="30" cy="45" r="16" fill="#98FB98"/>
-
-    <!-- Cone -->
-    <path d="M20 55 L30 75 L40 55 Z" fill="#D2691E"/>
-
-    <!-- Waffle pattern on cone -->
-    <line x1="22" y1="57" x2="38" y2="57" stroke="#8B4513" stroke-width="1"/>
-    <line x1="24" y1="61" x2="36" y2="61" stroke="#8B4513" stroke-width="1"/>
-    <line x1="26" y1="65" x2="34" y2="65" stroke="#8B4513" stroke-width="1"/>
-    <line x1="28" y1="69" x2="32" y2="69" stroke="#8B4513" stroke-width="1"/>
-
-    <!-- Cherry on top -->
-    <circle cx="32" cy="12" r="3" fill="#FF6B6B"/>
-    <path d="M32 9 Q34 7 36 8" stroke="#228B22" stroke-width="2" fill="none"/>
+    <!-- Hot dog bun (top) -->
+    <ellipse cx="30" cy="25" rx="22" ry="12" fill="#DEB887"/>
+    <ellipse cx="30" cy="25" rx="20" ry="10" fill="#F4A460"/>
+    
+    <!-- Hot dog sausage -->
+    <ellipse cx="30" cy="40" rx="20" ry="8" fill="#8B4513"/>
+    <ellipse cx="30" cy="40" rx="18" ry="6" fill="#CD853F"/>
+    
+    <!-- Mustard zigzag -->
+    <path d="M15 35 Q20 32 25 35 Q30 38 35 35 Q40 32 45 35" stroke="#FFD700" stroke-width="3" fill="none"/>
+    
+    <!-- Ketchup dots -->
+    <circle cx="18" cy="42" r="2" fill="#DC143C"/>
+    <circle cx="25" cy="45" r="2" fill="#DC143C"/>
+    <circle cx="35" cy="43" r="2" fill="#DC143C"/>
+    <circle cx="42" cy="46" r="2" fill="#DC143C"/>
+    
+    <!-- Hot dog bun (bottom) -->
+    <ellipse cx="30" cy="55" rx="22" ry="12" fill="#DEB887"/>
+    <ellipse cx="30" cy="55" rx="20" ry="10" fill="#F4A460"/>
+    
+    <!-- Sesame seeds on top bun -->
+    <ellipse cx="25" cy="20" rx="1.5" ry="1" fill="#F5DEB3"/>
+    <ellipse cx="32" cy="18" rx="1.5" ry="1" fill="#F5DEB3"/>
+    <ellipse cx="38" cy="22" rx="1.5" ry="1" fill="#F5DEB3"/>
+    <ellipse cx="20" cy="28" rx="1.5" ry="1" fill="#F5DEB3"/>
+    <ellipse cx="40" cy="29" rx="1.5" ry="1" fill="#F5DEB3"/>
+    
+    <!-- Grill marks on sausage -->
+    <line x1="20" y1="38" x2="40" y2="38" stroke="#654321" stroke-width="1" opacity="0.6"/>
+    <line x1="22" y1="42" x2="38" y2="42" stroke="#654321" stroke-width="1" opacity="0.6"/>
 </svg>
